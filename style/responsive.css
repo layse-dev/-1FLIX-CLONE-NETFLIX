@@ -19,12 +19,17 @@
     }
 
     .filme-principal .container {
-        margin-left: 30px;
-        padding: 20px 0;
+        margin-left: 0;
+        padding: 0 10px;
+        width: 85%;
     }
 
     .filme-principal {
         background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .filme-principal .descricao {
@@ -34,7 +39,11 @@
     .filme-principal .titulo {
         margin-top: 5%;
         font-size: 35px;
-        
+    }
+
+    .btn-assistir {
+        width: 100px;
+        font-size: 12px;
     }
 }
 
