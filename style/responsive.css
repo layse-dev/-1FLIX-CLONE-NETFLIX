@@ -6,12 +6,35 @@
     }
 
     header nav {
-        display: flex;
+        margin-right: 0;
     }
 
     .botao {
         margin-top: 5px;
         width: 300px;
+    }
+
+    .container {
+        margin-left: 0;
+    }
+
+    .filme-principal .container {
+        margin-left: 30px;
+        padding: 20px 0;
+    }
+
+    .filme-principal {
+        background-position: center;
+    }
+
+    .filme-principal .descricao {
+        font-size: 10pt;
+    }
+    
+    .filme-principal .titulo {
+        margin-top: 5%;
+        font-size: 35px;
+        
     }
 }
 
